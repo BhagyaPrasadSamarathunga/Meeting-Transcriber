@@ -1,6 +1,7 @@
 ## Meeting Transcriber
 
 A simple web application that allows users to upload an audio recording of a meeting and generate a transcript using OpenAI’s whisper API.
+
 <img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe.gif" width="300" />
 
 ## Live Demo
