@@ -1,6 +1,7 @@
 ## Meeting Transcriber
 
 A simple web application that allows users to upload an audio recording of a meeting and generate a transcript using OpenAI’s whisper API.
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe.gif" width="300" />
 
 ## Project Overview
 
@@ -14,6 +15,7 @@ This project is a MVP builld to:
 The application is implemented using a full-stack Next.js architecture, where both frontend and backend logic live within the same project.
 
 ## Architecture Overview
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe%20Architecture.png" width="300" />
 
 ## Tech Stack
 
@@ -29,9 +31,9 @@ The application is implemented using a full-stack Next.js architecture, where bo
 
 ## Application Setup
 
-- create .env.local file
-- copy the content from .env.template
-- replace the open ai key with your key
+- Create .env.local file
+- Copy the content from .env.template
+- Replace the open ai key with your key
 
 ```bash
 npm install
@@ -40,12 +42,25 @@ npm run dev
 
 ```
 
+## Running Tests
+
+```bash
+npm test
+
+```
 - Open [http://localhost:3000]
 
-Further improvements
+## Limitation
+
+- File size limited to 25MB which supported by OpenAI Whisper API
+- Number of language supports also dependent on OpenAI Whisper API guidelines. 
+
+## Further improvements
 
 - Allow multiple file upload
 - Allow user to edit the transcript and download
 - Support translation
 - Store transcripts in a database for allowing history view
 - Show the upload progress
+- Increase unit test and E2E testing coverages.
+- Split long recordings into smaller segments for faster transcription
