@@ -58,9 +58,11 @@ npm test
 
 ## Limitation
 
-- File Size Restriction:
+- **File Size Restriction:**
+  
   The OpenAI Whisper API supports audio files up to 25 MB per request. Larger files must be split into smaller segments before transcription.
-- Language Support:
+- **Language Support:**
+  
   Language availability and transcription quality depend on the languages officially supported by the OpenAI Whisper API. Performance may vary for languages outside the documented supported   list.
 
 ## Further improvements
