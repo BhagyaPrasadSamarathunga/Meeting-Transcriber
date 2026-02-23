@@ -3,6 +3,10 @@
 A simple web application that allows users to upload an audio recording of a meeting and generate a transcript using OpenAI’s whisper API.
 <img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe.gif" width="300" />
 
+## Live Demo
+
+🔗 [Try the App](https://audio-transcriber-puce.vercel.app/)
+
 ## Project Overview
 
 This project is a MVP builld to:
@@ -63,4 +67,5 @@ npm test
 - Store transcripts in a database for allowing history view
 - Show the upload progress
 - Increase unit test and E2E testing coverages.
-- Split long recordings into smaller segments for faster transcription
+- Improve error handling.
+- Performance enhance by split long recordings into smaller segments for faster transcription. 
