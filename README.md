@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Meeting Transcriber
 
-## Getting Started
+A simple web application that allows users to upload an audio recording of a meeting and generate a transcript using OpenAI’s whisper API.
 
-First, run the development server:
+## Project Overview
+
+This project is a MVP builld to:
+
+- Upload an audio file
+- Transcribe speech to text
+- Display the transcript
+- Download transcript as a .txt file
+
+The application is implemented using a full-stack Next.js architecture, where both frontend and backend logic live within the same project.
+
+## Architecture Overview
+
+## Tech Stack
+
+- Framework: Next.js (Full-stack React framework)
+- AI Service: OpenAI Whisper API
+- Testing: Jest + React Testing Library
+
+## Development setup
+
+- ESLint
+- Prettier
+- Typescript for type safety
+
+## Application Setup
+
+- create .env.local file
+- copy the content from .env.template
+- replace the open ai key with your key
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000]
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Further improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Allow multiple file upload
+- Allow user to edit the transcript and download
+- Support translation
+- Store transcripts in a database for allowing history view
+- Show the upload progress
