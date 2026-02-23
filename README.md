@@ -2,7 +2,7 @@
 
 A simple web application that allows users to upload an audio recording of a meeting and generate a transcript using OpenAI’s whisper API.
 
-<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe.gif" width="300" />
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe.gif" width="600" />
 
 ## Live Demo
 
@@ -20,7 +20,7 @@ This project is a MVP builld to:
 The application is implemented using a full-stack Next.js architecture, where both frontend and backend logic live within the same project.
 
 ## Architecture Overview
-<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe%20Architecture.png" width="300" />
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Meeting-Transcribe%20Architecture.png" width="600" />
 
 ## Tech Stack
 
