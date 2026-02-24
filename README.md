@@ -74,4 +74,5 @@ npm test
 - Show the upload progress
 - Increase unit test and E2E testing coverages.
 - Improve error handling.
-- Performance enhance by split long recordings into smaller segments for faster transcription. 
+- Performance enhance by split long recordings into smaller segments for faster transcription.
+- UI/UX enhancements for overall user experience.
